@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #111;
+}
+#menu ul{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#menu li{
+    display: inline-block;
+    border: 2px solid #ddd;
+    width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ddd;
+    cursor: pointer;
+}
+
+#menu li.red{
+    background: #e74c3c;
+}
+#menu li.green{
+    background: #16a085;
+}
+#menu li.blue{
+    background: #2ecc71;
+}
+#menu li.pink{
+    background: #e84393;
+}
+#menu li.purple{
+    background: #ff81be;
+}
